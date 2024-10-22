@@ -1,0 +1,29 @@
+html {
+  background-color: aqua;
+}
+body {
+  text-align: justify;
+  font-family: Georgia;
+}
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 60px;
+  color: darkblue;
+}
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+.V {
+  color: white;
+}
+.R {
+  color: salmon;
+  text-align: center;
+}
+p {
+  text-align: right;
+}
+h1 {
+  text-align: center;
+}
