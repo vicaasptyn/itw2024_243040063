@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tugas7.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Anua</h2>
+          <p class="sub-heading">correcting serum</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">ONLY</h4>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 315K</h4>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Anua</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Extra Niacinamide 10%</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            maxime laboriosam similique sapiente voluptatum neque?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Extra TXA 4%</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            maxime laboriosam similique sapiente voluptatum neque?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Dark Spot treatment</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            maxime laboriosam similique sapiente voluptatum neque?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Import From Korea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            maxime laboriosam similique sapiente voluptatum neque?
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="gambar1.jpg" alt="" />
+        <img src="gambar2.jpg" alt="" />
+        <img src="gambar3.jpg" alt="" />
+        <img src="gambar4.jpg" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
